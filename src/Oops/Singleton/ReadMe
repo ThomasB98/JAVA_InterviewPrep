@@ -1,0 +1,30 @@
+Runtime is a singleton
+BusinessDelegate
+ServiceLocator
+
+#Advantage of Singleton class
+    Single Instance: The Singleton Pattern guarantees
+    that a class has only one instance throughout the
+     application. This can be useful in scenarios in
+     which multiple instances must be avoided, such
+     as when managing shared resources or configurations.
+
+    Global Access: Because a Singleton instance is
+    globally accessible, it is possible to access its
+     methods and properties from anywhere in the
+     application. This eliminates the need to pass
+     objects’ instances or manage complex dependencies.
+
+    Lazy Initialization: The Singleton pattern supports
+    lazy initialization, which means that the instance
+     is created only when it is accessed for the first time.
+     This can improve performance by deferring instantiation
+     until it is required.
+
+    Thread Safety: The Singleton implementation can be
+    made thread-safe, allowing multiple threads to access
+    the instance without causing concurrency issues.
+    This is particularly critical in multi-threaded applications.
+
+
+Singleton class we can't create it with construtor or new operator
