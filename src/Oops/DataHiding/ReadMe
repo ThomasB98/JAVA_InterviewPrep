@@ -1,0 +1,14 @@
+outside person can access our internal data directly
+or our internal data should not go out directly this oop
+is nothing but Data Hiding
+
+after validation or authentication outside person can access
+our internal data for example:
+    1.After providing proper user name and password
+    we can able to access our gmail inbox information
+    2.even though we are valid customer of bank
+    we can able to access our account information and
+    we can't access other account information
+
+to achieve dataHiding use private keyword for
+every data item
